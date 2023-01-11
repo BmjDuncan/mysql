@@ -10,4 +10,4 @@ CREATE TABLE IF NOT EXISTS `accounts` (
 
 
 CREATE USER `admin`@`%` IDENTIFIED BY 'goose'; 
-GRANT ALL PRIVILEGES ON . TO `admin`@`%`; 
+GRANT ALL PRIVILEGES ON . TO 'admin'@'%'; 
