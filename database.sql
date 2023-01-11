@@ -7,3 +7,7 @@ CREATE TABLE IF NOT EXISTS 'accounts' (
   	'password' varchar(255) NOT NULL,
     PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+
+CREATE USER 'admin'@'%' IDENTIFIED BY 'goose'; 
+GRANT ALL PRIVILEGES ON . TO 'admin'@'%'; 
