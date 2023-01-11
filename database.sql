@@ -9,5 +9,4 @@ CREATE TABLE IF NOT EXISTS `accounts` (
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 
-CREATE USER `admin`@`%` IDENTIFIED BY 'goose'; 
-GRANT ALL PRIVILEGES ON login.* TO `admin`@`%`;
+
